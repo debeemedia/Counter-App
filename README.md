@@ -1,3 +1,6 @@
-A simple counter app to demonstrate understanding of some basics of JavaScript
+## A simple counter app to demonstrate understanding of some basics of JavaScript
 
-(Try it out here) [https://debeemedia.github.io/Counter-App/]
+[Try it out here](https://debeemedia.github.io/Counter-App/)
+
+### Acknowledgement
+* Promise Okechukwu
