@@ -3,14 +3,6 @@ const btnPlus = document.getElementById('plus')
 const btnMinus = document.getElementById('minus')
 const btnReset = document.getElementById('reset')
 
-function updateCount () {
-    // function to update the browser to show the last value
-    const storedNum = localStorage.getItem('current')
-    if (storedNum) {
-        count.innerText = storedNum
-    }
-}
-
 function increaseCount () {
     // function to increase the counter
     let currentNum = parseInt(count.innerText)
@@ -33,6 +25,12 @@ function decreaseCount () {
     if (currentNum < 0) {
         count.innerText = 0
     }
+}
+
+function updateCount () {
+    // function to update the browser to show the last value
+    const storedNum = localStorage.getItem('current')
+    count.innerText = storedNum
 }
 
 function resetCount () {
