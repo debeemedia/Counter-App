@@ -17,10 +17,10 @@ function increaseCount () {
     currentNum++
     count.innerText = currentNum
     localStorage.setItem('current', currentNum)
-    // // condition to set maximum count to, 10, for instance
-    // if (currentNum > 10) {
-    //     count.innerText = 0
-    // }
+    // condition to set maximum count to 100
+    if (currentNum > 100) {
+        count.innerText = 0
+    }
 }
 
 function decreaseCount () {
